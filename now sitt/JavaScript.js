@@ -63,3 +63,10 @@ function deleteComment(index) {
 
 // تحميل الصفحة
 document.addEventListener("DOMContentLoaded", showComments);
+
+
+comments.push({
+    name: name,
+    text: comment,
+    date: new Date().toLocaleString()
+});
