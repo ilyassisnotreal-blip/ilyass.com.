@@ -133,3 +133,30 @@ button:hover {
         margin: 20px auto;
     }
 }
+
+
+
+
+/* Portfolio */
+.portfolio-container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.portfolio-item {
+    margin: 30px auto;
+    max-width: 600px;
+    padding: 20px;
+    border: 1px solid rgba(197, 160, 89, 0.2);
+    transition: 0.3s;
+}
+
+.portfolio-item:hover {
+    transform: translateY(-5px);
+    border-color: #c5a059;
+}
+
+.portfolio-item p {
+    font-size: 0.95rem;
+    color: #555;
+}
